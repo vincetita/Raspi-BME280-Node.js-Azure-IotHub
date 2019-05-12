@@ -46,6 +46,7 @@ You can use the application to simulate temperature&humidity data and send to yo
 
 ## Running this sample
 ### Install package
+### - On Raspberry pi terminal change permission … chmod  777 -r  <containing directory> to be able to write to node_modules
 Install all packages by the following command:
 
 ```bash
