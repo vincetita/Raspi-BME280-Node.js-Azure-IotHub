@@ -1,0 +1,22 @@
+Client code  index.js (nodejs).
+Service Bus Namespace & Queue
+Custom endpoint and rule to IoT Hub.
+Create & Configure Logic app.
+
+service Bus - vincenoderaspiSBnamespace
+Queue - vincenodeSBqueue
+Shared policy - vincenoderaspiSBqueue-sharedpolicy - vincenode-sharedaccess-policy
+
+Add a custom endpoint (IoT Hub message routing)
+Service Bus endpoint - vincenodeSBendpoint
+Route - vincenoderaspiSBroute - vincenodeSBroute
+
+
+LOGIC APP
+vincenoderaspi-LogicApp
+Query Designer: Blank logic app template --> Service Bus
+When a message arrives in queue (autocomplete) - Service Bus
+VincenoderaspiSB-connection
+Configure Logic App action
+OPtions:SMTP OR Sendgrid -- I decided to implement Sendgrid bcos of familiarity with that and GMAIL.
+
