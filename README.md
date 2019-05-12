@@ -1,7 +1,7 @@
 ---
 services: iot-hub
 platforms: Nodejs
-author: shizn
+author: Vincetita
 ---
 
 # IoT Hub Raspberry Pi 3 Client application
